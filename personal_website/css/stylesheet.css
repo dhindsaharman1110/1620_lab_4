@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(233, 233, 152);
+}
+
+.text_centre{
+    background-color: lightblue;
+    text-align: center;
+}
+
+ol{
+    list-style-type: none;
+}
+
+.text_centre{
+    display: grid;
+}
+
+
+@media screen and (min-width:600px){
+
+
+    li{
+        display:grid;
+        grid-template-columns: 2fr 4fr;
+        
+    }
+
+
+    .description{
+        margin: 0 px ;
+    }
+
+    .text_centre{
+        display: flex;
+        justify-content: center;
+    }
+
+    .text_centre > a{
+        margin: 0 10px;
+    }
+}
+
+
+
